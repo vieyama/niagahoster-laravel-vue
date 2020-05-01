@@ -124,7 +124,7 @@
           <h6 style="color:#acacac">
             <b>TENTANG KAMI</b>
           </h6>
-          <img :src="`/assets/images/pembayaran.png`" width="50%" />
+          <img :src="`/assets/images/pembayaran.png`" class="img-fluid" />
           <p
             style="font-size: 13px; color: #9c9c9c; margin-top:10px"
           >Aktivasi instan dengan e-Payment. Hosting dan Domain langsung aktif!</p>

@@ -14,6 +14,7 @@
         <img
           :src="'/assets/images/Image support.png'"
           alt="illustration banner PHP"
+          class="img-fluid"
         />
       </div>
   </div>

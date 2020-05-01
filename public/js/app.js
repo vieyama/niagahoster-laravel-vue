@@ -2329,6 +2329,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2484,7 +2502,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-var baseUrl = "http://localhost:8000/api";
+var baseUrl = "https://vieyama-niagahoster-test.herokuapp.com/api";
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -38395,7 +38413,10 @@ var render = function() {
             _c("div", { staticClass: "col-md-12" }, [
               _vm._m(4),
               _vm._v(" "),
-              _c("img", { attrs: { src: "/assets/images/pembayaran.png" } }),
+              _c("img", {
+                staticClass: "img-fluid",
+                attrs: { src: "/assets/images/pembayaran.png" }
+              }),
               _vm._v(" "),
               _c(
                 "p",
@@ -38736,7 +38757,7 @@ var staticRenderFns = [
       [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-md-10 align-self-center" }, [
+            _c("div", { staticClass: "col-md-9 align-self-center" }, [
               _c(
                 "span",
                 { staticStyle: { "font-size": "30px", color: "#fff" } },
@@ -38749,7 +38770,7 @@ var staticRenderFns = [
               )
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-md-2" }, [
+            _c("div", { staticClass: "col-md-3" }, [
               _c("div", [
                 _c("button", { staticClass: "btn btn-lc" }, [
                   _c("i", { staticClass: "fa fa-comments mr-3" }),
@@ -38940,6 +38961,7 @@ var render = function() {
     _vm._v(" "),
     _c("div", { staticClass: "col-md-6" }, [
       _c("img", {
+        staticClass: "img-fluid",
         attrs: {
           src: "/assets/images/Image support.png",
           alt: "illustration banner PHP"
@@ -39219,7 +39241,7 @@ var render = function() {
                 { staticClass: "social_media_links" },
                 [
                   _vm._v(
-                    "\n              Gratis Ebook 9 Cara Cerdas Menggunakan\n              Domain\n              "
+                    "\n                            Gratis Ebook 9 Cara Cerdas Menggunakan Domain\n                            "
                   ),
                   _c("router-link", { attrs: { to: "#" } }, [_vm._v("[x]")])
                 ],
@@ -39239,7 +39261,9 @@ var render = function() {
                     [
                       _c("router-link", { attrs: { to: "/member-area" } }, [
                         _c("i", { staticClass: "fas fa-user-circle" }),
-                        _vm._v("Member Area\n                  ")
+                        _vm._v(
+                          "Member Area\n                                    "
+                        )
                       ])
                     ],
                     1
@@ -39252,51 +39276,53 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _c("nav", { staticClass: "navbar navbar-expand-md navbar-light" }, [
-      _c(
-        "div",
-        { staticClass: "container" },
-        [
-          _c(
-            "router-link",
-            { staticClass: "navbar-brand", attrs: { to: "/" } },
-            [
-              _c("img", {
-                staticClass: "img-logo",
-                attrs: { src: "/assets/images/logo.png", alt: "Logo" }
-              })
-            ]
-          ),
-          _vm._v(" "),
-          _vm._m(2),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "collapse navbar-collapse justify-content-end",
-              attrs: { id: "navbarSupportedContent" }
-            },
-            _vm._l(_vm.navs, function(nav, i) {
-              return _c("ul", { key: i, staticClass: "navbar-nav" }, [
-                _c(
-                  "li",
-                  { staticClass: "nav-item" },
-                  [
-                    _c(
-                      "router-link",
-                      { staticClass: "nav-link", attrs: { to: nav.to } },
-                      [_vm._v(_vm._s(nav.text))]
-                    )
-                  ],
-                  1
-                )
-              ])
-            }),
-            0
-          )
-        ],
-        1
-      )
+    _c("div", { staticClass: "container" }, [
+      _c("nav", { staticClass: "navbar navbar-expand-md navbar-light" }, [
+        _c(
+          "div",
+          { staticClass: "container" },
+          [
+            _c(
+              "router-link",
+              { staticClass: "navbar-brand", attrs: { to: "/" } },
+              [
+                _c("img", {
+                  staticClass: "img-logo",
+                  attrs: { src: "/assets/images/logo.png", alt: "Logo" }
+                })
+              ]
+            ),
+            _vm._v(" "),
+            _vm._m(2),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "collapse navbar-collapse justify-content-end",
+                attrs: { id: "navbarSupportedContent" }
+              },
+              _vm._l(_vm.navs, function(nav, i) {
+                return _c("ul", { key: i, staticClass: "navbar-nav" }, [
+                  _c(
+                    "li",
+                    { staticClass: "nav-item" },
+                    [
+                      _c(
+                        "router-link",
+                        { staticClass: "nav-link", attrs: { to: nav.to } },
+                        [_vm._v(_vm._s(nav.text))]
+                      )
+                    ],
+                    1
+                  )
+                ])
+              }),
+              0
+            )
+          ],
+          1
+        )
+      ])
     ])
   ])
 }
@@ -39308,7 +39334,7 @@ var staticRenderFns = [
     return _c("li", [
       _c("a", [
         _c("i", { staticClass: "fas fa-phone-alt" }),
-        _vm._v("0274-5305505\n                  ")
+        _vm._v("0274-5305505\n                                    ")
       ])
     ])
   },
@@ -39319,7 +39345,9 @@ var staticRenderFns = [
     return _c("li", [
       _c("a", [
         _c("i", { staticClass: "fas fa-comment" }),
-        _vm._v("Live\n                    Chat\n                  ")
+        _vm._v(
+          "Live\n                                        Chat\n                                    "
+        )
       ])
     ])
   },
@@ -55882,8 +55910,8 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/yovie/Documents/laravelVue/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/yovie/Documents/laravelVue/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! E:\niagahoster-laravel-vue\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! E:\niagahoster-laravel-vue\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
