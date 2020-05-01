@@ -48,7 +48,6 @@
 </template>
 
 <script>
-const baseUrl = "https://vieyama-niagahoster-test.herokuapp.com/api";
 export default {
   data() {
     return {
@@ -56,7 +55,7 @@ export default {
     };
   },
   created() {
-    this.axios.get(`${baseUrl}/pricelist`).then(res => {
+    this.axios.get(`https://vieyama-niagahoster-test.herokuapp.com/api/pricelist`).then(res => {
       this.PriceLists = res.data;
     });
   },
