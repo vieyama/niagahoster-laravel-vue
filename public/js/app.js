@@ -2502,7 +2502,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-var baseUrl = "https://vieyama-niagahoster-test.herokuapp.com/api";
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2512,7 +2511,7 @@ var baseUrl = "https://vieyama-niagahoster-test.herokuapp.com/api";
   created: function created() {
     var _this = this;
 
-    this.axios.get("".concat(baseUrl, "/pricelist")).then(function (res) {
+    this.axios.get("https://vieyama-niagahoster-test.herokuapp.com/api/pricelist").then(function (res) {
       _this.PriceLists = res.data;
     });
   },
