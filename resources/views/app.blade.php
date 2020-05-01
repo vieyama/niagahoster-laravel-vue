@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <!-- Styles -->
          <link href="{{ mix('css/app.css') }}" type="text/css" rel="stylesheet"/>
-         <link href="{{ URL::asset('css/style.css') }}" type="text/css" rel="stylesheet"/>
+         <link href="{{ mix('css/style.css') }}" type="text/css" rel="stylesheet"/>
          <link href="{{ URL::asset('fontawesome/css/all.css') }}" rel="stylesheet"/>
         <style>
             .bg-light {
