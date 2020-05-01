@@ -48,7 +48,7 @@
 </template>
 
 <script>
-const baseUrl = "http://localhost:8000/api";
+const baseUrl = "https://vieyama-niagahoster-test.herokuapp.com/api";
 export default {
   data() {
     return {
